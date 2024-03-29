@@ -1,0 +1,158 @@
+.createDbMainHeading{
+  font-size: 30px;
+  color: #154f5d;
+  font-weight: 600
+}
+
+.uploadMainContainer{
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+background: linear-gradient(135deg, rgba(0,86,86,0.9332983193277311) 0%, rgba(216,143,65,0.9445028011204482) 52%, rgba(181,104,36,0.9108893557422969) 100%);
+}
+
+.backButtonContainer{
+  height: 70px;
+  width: 70px;
+  margin: 15px;
+  border-radius: 100%;
+  border: 5px solid orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+}
+
+.reportMainContainer{
+  background-color: whitesmoke;
+  border: 2px solid rgba(162, 158, 154, 0.527);
+  border-radius: 22px;
+  height: auto;
+  width: 100%;
+  /* background-color: #154f5d; */
+  padding-bottom: 50px;
+}
+
+.headingContainer{
+  margin-top: 28px;
+}
+
+.mainTopcontainer{
+  display: flex;
+}
+
+.feedbackHeading{
+  font-size: 30px;
+  color: rgb(0,86,86);
+  margin-left: 20px;
+}
+
+.reportSelectionContainer{
+  height: auto;
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+select {
+  /* styling */
+  width: 100%;
+  background-color: white;
+  border: 2px solid rgba(162, 158, 154, 0.527);
+  border-radius: 4px;
+  display: inline-block;
+  font: inherit;
+  line-height: 1.5em;
+  padding: 0.5em 3.5em 0.5em 1em;
+
+  /* reset */
+
+  margin: 0;      
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.selectionContainer{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+select {
+  background-image:
+    linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%),
+    radial-gradient(#ddd 70%, transparent 72%);
+  background-position:
+    calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    calc(100% - .5em) .5em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1.5em 1.5em;
+  background-repeat: no-repeat;
+}
+
+select:focus {
+  background-image:
+    linear-gradient(45deg, white 50%, transparent 50%),
+    linear-gradient(135deg, transparent 50%, white 50%),
+    radial-gradient(gray 70%, transparent 72%);
+  background-position:
+    calc(100% - 15px) 1em,
+    calc(100% - 20px) 1em,
+    calc(100% - .5em) .5em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1.5em 1.5em;
+  background-repeat: no-repeat;
+  border-color: black;
+  outline: 0;
+}
+
+
+.submitButton{
+  background-color: rgba(181,104,36);
+  color: white;
+  font-weight: 600;
+  width: 230px;
+  padding: 0.5em;
+  border:0;
+  margin-top: 15px;
+  border-radius: 7px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.buttonContainer{
+width: 100%;
+display: flex;
+justify-content: center;
+}
+
+tr,th,td{
+text-align: center;
+}
+
+.questonHeading{
+font-size: 23px;
+margin-top: 15px;
+color: #154f5d;
+}
+
+.editor{
+  text-align: center;
+}
+
+.questionHeadingName{
+  font-size: 18px;
+  color: teal;
+  font-weight: 700;
+}

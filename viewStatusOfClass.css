@@ -1,0 +1,155 @@
+
+.uploadMainContainer{
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0,86,86);
+    padding: 0;
+background: linear-gradient(135deg, rgba(0,86,86,0.9332983193277311) 0%, rgba(216,143,65,0.9445028011204482) 52%, rgba(181,104,36,0.9108893557422969) 100%);
+}
+
+.backButtonContainer{
+    height: 70px;
+    width: 70px;
+    margin: 15px;
+    border-radius: 100%;
+    border: 5px solid orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+}
+  
+.reportMainContainer{
+    background-color: whitesmoke;
+    border: 2px solid rgba(162, 158, 154, 0.527);
+    border-radius: 22px;
+    height: 90%;
+    width: 100%;
+    margin: 0;
+}
+
+.headingContainer{
+    margin-top: 28px;
+}
+
+.mainTopcontainer{
+    display: flex;
+}
+
+.headingContainer{
+    height: inherit;
+    margin-left: auto;
+    padding-top: 15px;
+}
+
+.feedbackHeading{
+    font-size: 30px;
+    color: rgb(0,86,86);
+}
+
+.dropButton{
+    background-color: red;
+}
+
+.moveButton{
+    background-color: green;
+}
+
+a{
+    padding: 10px;
+    font-size: 15px;
+    color: white !important ;
+    font-weight: 700;
+    text-decoration: none !important;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 50px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 50px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+.classDetailsContainer{
+    background-color: white;
+    border: 2px solid rgba(162, 158, 154, 0.527);
+    border-radius: 22px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.notCompletedStudentsMainContainer{
+    height: 60%;
+    overflow-y: scroll;
+}
+
+.completionDescription{
+    text-align: right;
+    padding-top: 5px;
+    padding-right: 50px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.dbname, .tablename, .count{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.count{
+    background-color: rgb(137, 63, 186);
+    padding: 3px;
+    padding-right: 7px;
+    padding-left: 7px;
+    border-radius: 4px;
+    color: white;
+}
+
+.notComHeading{
+    text-align: left;
+    font-size: 20px;
+    color: rgb(0,86,86);
+    font-weight: 600;
+}
+
+.singleStudent{
+    background-color: white;
+    border: 2px solid rgba(162, 158, 154, 0.527);
+    border-radius: 22px;
+    display: flex;
+    justify-content: space-around;
+    /* width: 75%; */
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5px;
+}
+
+.sno, .rollno, .name{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 18px;
+    font-weight: 600;
+}

@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Finger+Paint&family=Roboto+Slab&display=swap");
+
+body{
+  padding-bottom: 20px;
+}
+
+.allTemplate{
+  height: 460px;
+}
+
+.allTemplateCollegeNameMainContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.allTemplateKceNameBox {
+  padding: 20px;
+  height: 270px;
+  margin-top: 60px;
+  backdrop-filter: blur(8px) saturate(140%);
+  -webkit-backdrop-filter: blur(8px) saturate(140%);
+  background-color: whitesmoke;
+  border-radius: 13px;
+  border: 2px solid rgba(162, 158, 154, 0.527);
+  text-align: center;
+}
+
+.logoContainer {
+  height: 120px;
+  width: 120px;
+  /* background-image: url("https://res.cloudinary.com/dkbwdkthr/image/upload/v1694090918/KCE%20LOGO.jpg"); */
+  background-image: url("https://res.cloudinary.com/dkbwdkthr/image/upload/v1694825929/kce_logo_png.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+  background-color: white;
+  background-blend-mode: darken;
+  position: relative;
+  top: -80px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid rgba(162, 158, 154, 0.527);
+  border-radius: 100%;
+}
+
+.kceNameContainer {
+  /* border: 1px solid red; */
+  position: relative;
+  top: -80px;
+}
+
+.kceName {
+  font-size: 45px;
+  letter-spacing: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 900;
+  color: #154f5d;
+  margin-bottom: 0%;
+}
+
+.kceCollege {
+  margin-top: -10px;
+  margin-bottom: 0px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #f25d01;
+  font-weight: 600;
+}
+
+.kceCollegeQuotes {
+  color: #154f5d;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.discriptionContainer {
+  /* border: 1px solid red; */
+  width: fit-content;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  top: -100px;
+}
+
+.kceCollegeQualifiedDetails {
+  display: inline;
+  font-size: 15px;
+}
+
+.hrLine {
+  position: relative;
+  top: -90px;
+}
+
+.kceCollegeCertificationDetails {
+  display: inline;
+  font-size: 12px;
+  color: #f25d01;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/*-----------Admin Page starts here-----------------*/
+
+
+.adminPageMainContainer{
+    height: auto;
+    display: flex;
+    justify-content: center;  
+    margin-top: -120px;
+}
+
+.optionsMainContainer{
+    height: 200px;
+    margin-top: 18px;
+}
+
+.questionAddContainer:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: linear-gradient(135deg, rgba(0,86,86,0.9332983193277311) 0%, rgba(216,143,65,0.9445028011204482) 52%, rgba(181,104,36,0.9108893557422969) 100%);
+    backdrop-filter: blur(80px);
+  cursor: pointer;
+  text-align: center;
+}
+
+.questionAddContainer{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  height: 100%;
+  border-radius: 8px;
+  background-color: whitesmoke;
+  border: 2px solid rgba(162, 158, 154, 0.527);
+}
+
+.iconLogo{
+  font-size: 60px;
+}
+
+.disc{
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+    word-wrap: break-word;
+  color: rgb(8, 113, 22);
+}
+
+.footerScetion{
+  height: 30px;
+  width: 100%;
+  background-color: #cac5c5;
+  color: black;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  position: fixed;
+  bottom: 0;
+}

@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Finger+Paint&family=Roboto+Slab&display=swap");
+
+.allTemplate {
+  height: 460px;
+}
+
+.allTemplateCollegeNameMainContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.allTemplateKceNameBox {
+  padding: 20px;
+  height: 270px;
+  margin-top: 60px;
+  backdrop-filter: blur(8px) saturate(140%);
+  -webkit-backdrop-filter: blur(8px) saturate(140%);
+  background-color: whitesmoke;
+  border-radius: 13px;
+  border: 2px solid rgba(162, 158, 154, 0.527);
+  text-align: center;
+}
+
+.logoContainer {
+  height: 120px;
+  width: 120px;
+  /* background-image: url("https://res.cloudinary.com/dkbwdkthr/image/upload/v1694090918/KCE%20LOGO.jpg"); */
+  background-image: url("https://res.cloudinary.com/dkbwdkthr/image/upload/v1694825929/kce_logo_png.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+  background-color: white;
+  background-blend-mode: darken;
+  position: relative;
+  top: -80px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid rgba(162, 158, 154, 0.527);
+  border-radius: 100%;
+}
+
+.kceNameContainer {
+  /* border: 1px solid red; */
+  position: relative;
+  top: -80px;
+}
+
+.kceName {
+  font-size: 45px;
+  letter-spacing: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 900;
+  color: #154f5d;
+  margin-bottom: 0%;
+}
+
+.kceCollege {
+  margin-top: -10px;
+  margin-bottom: 0px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #f25d01;
+  font-weight: 600;
+}
+
+.kceCollegeQuotes {
+  color: #154f5d;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.discriptionContainer {
+  /* border: 1px solid red; */
+  width: fit-content;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  top: -100px;
+}
+
+.kceCollegeQualifiedDetails {
+  display: inline;
+  font-size: 15px;
+}
+
+.hrLine {
+  position: relative;
+  top: -90px;
+}
+
+.kceCollegeCertificationDetails {
+  display: inline;
+  font-size: 12px;
+  color: #f25d01;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.allPageTemplateProfileMainContainer {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.studentProfileMainContainer {
+  padding-right: 20px;
+  padding-left: 20px;
+  height: fit-content;
+  margin-top: 2px;
+  backdrop-filter: blur(8px) saturate(140%);
+  -webkit-backdrop-filter: blur(8px) saturate(140%);
+  background-color: whitesmoke;
+  border-radius: 13px;
+  border: 2px solid rgba(162, 158, 154, 0.527);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.studentProfileLogoContainer {
+  background-color: transparent;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+  margin: 2px;
+}
+
+.profileAndDetailsContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.profileLogo {
+  height: 65px;
+  width: 65px;
+  border-radius: 100%;
+  background-color: gray;
+  background-image: url("https://res.cloudinary.com/dkbwdkthr/image/upload/v1694826406/profile_wjw3og.png");
+  background-size: cover;
+  border: 1px solid black;
+  margin: 0;
+}
+
+.profileNameContainer {
+  height: 65px;
+  width: 70%;
+  margin-left: -25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.studentName {
+  font-size: 20px;
+  color: #f25d01;
+}
+
+.studentRollNo {
+  font-size: 15px;
+}
+
+.studentAcademyDetailsContainer {
+  height: 50px;
+  width: 250px;
+  border: 2px solid rgba(162, 158, 154, 0.527);
+  border-radius: 8px;
+}
+
+.studentAcademyDetails {
+  width: 100%;
+  height: 100%;
+  color: #154f5d;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 3px;
+}
+
+/*This page design starts*/
+
+#courses_info {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 7px;
+  border-style: hidden;
+  box-shadow: 0 0 0 1px rgb(222, 221, 221);
+  margin-top: 15px;
+}
+
+.coursesTable {
+  display: flex;
+  justify-content: center;
+}
+
+td,
+th {
+  border: 1px solid rgb(222, 221, 221);
+  padding: 10px;
+}
+th {
+  background-color: #154f5d;
+  color: white;
+  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
+}
+.serial_no {
+  border-top-left-radius: 6px;
+}
+.staff_name {
+  border-top-right-radius: 6px;
+}
+.table1 {
+  display: flex;
+  justify-content: center;
+}
+.table_heading {
+  text-align: center;
+}
+
+.tutorTable {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.tutor_info {
+  width: auto;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+.allSubjectsTeachersPage {
+  margin-bottom: 20px;
+}
+
+.nextbtn_class {
+  display: flex;
+  justify-content: end;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  width: 90vw;
+  .nextbtn {
+    border-radius: 10px;
+    background-color: #0d5b99;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    width: 8.5rem;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  .nextbtn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  .nextbtn span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  .nextbtn:hover span {
+    padding-right: 25px;
+  }
+
+  .nextbtn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+}

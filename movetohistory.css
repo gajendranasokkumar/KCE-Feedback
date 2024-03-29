@@ -1,0 +1,100 @@
+.createDbMainHeading{
+    font-size: 30px;
+    color: #154f5d;
+    font-weight: 600
+}
+
+.uploadMainContainer{
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0,86,86);
+background: linear-gradient(135deg, rgba(0,86,86,0.9332983193277311) 0%, rgba(216,143,65,0.9445028011204482) 52%, rgba(181,104,36,0.9108893557422969) 100%);
+}
+
+.backButtonContainer{
+    height: 70px;
+    width: 70px;
+    margin: 15px;
+    border-radius: 100%;
+    border: 5px solid orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+}
+  
+.reportMainContainer{
+    background-color: whitesmoke;
+    border: 2px solid rgba(162, 158, 154, 0.527);
+    border-radius: 22px;
+    height: 90%;
+    width: 100%;
+}
+
+.headingContainer{
+    margin-top: 28px;
+}
+
+.mainTopcontainer{
+    display: flex;
+}
+
+.feedbackHeading{
+    font-size: 30px;
+    color: rgb(0,86,86);
+    margin-left: 20px;
+}
+
+.reportSelectionContainer{
+    height: 8vh;
+    padding-top: 5px;
+}
+
+input {
+
+    /* styling */
+    width: 230px;
+    background-color: white;
+    border: 2px solid rgba(162, 158, 154, 0.527);
+    border-radius: 4px;
+    display: inline-block;
+    font: inherit;
+    line-height: 1.5em;
+    padding: 0.5em 3.5em 0.5em 1em;
+  
+    /* reset */
+  
+    margin: 0;      
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+
+.submitButton{
+    background-color: #154f5d;
+    color: white;
+    font-weight: 600;
+    width: 230px;
+    padding: 0.5em;
+    border:0;
+    margin-top: 5px;
+}
+
+.messageContainer{
+    height: 300px;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    border: 2px solid rgba(162, 158, 154, 0.527);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
